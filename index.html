@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incremental Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <button class="tablink" id="scrapyard-tab" onclick="openTab(event, 'scrapyard')">The Scrapyard</button>
+            <button class="tablink hidden" id="player-profile-tab" onclick="openTab(event, 'player-profile')">Player Profile</button>
+            <button class="tablink hidden" id="resource-management-tab" onclick="openTab(event, 'resource-management')">Resource Management</button>
+            <button class="tablink hidden" id="skills-tree-tab" onclick="openTab(event, 'skills-tree')">Skills Tree</button>
+            <button class="tablink hidden" id="map-tab" onclick="openTab(event, 'map')">Map</button>
+            <button class="tablink hidden" id="mecha-garage-tab" onclick="openTab(event, 'mecha-garage')">Mecha Garage</button>
+            <button class="tablink hidden" id="fighting-mecha-tab" onclick="openTab(event, 'fighting-mecha')">Fighting Mecha</button>
+        </div>
+
+        <div id="tab-content"></div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
